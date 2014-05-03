@@ -75,7 +75,7 @@ NSInteger beakerLevel = 0;
 
     //react to number going up
     
-    displayBeakerImage();
+    //displayBeakerImage();
     
  /*   UIAlertView *hello = [[UIAlertView alloc ]
                           initWithTitle:@"Beaker Game" message: [NSString stringWithFormat:@"%d",beakerLevel] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];

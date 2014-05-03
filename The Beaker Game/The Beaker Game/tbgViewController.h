@@ -15,7 +15,7 @@
 
 -(IBAction) increment;
 -(IBAction) decrement;
--(IBAction) displayBeakerImage;
+//-(IBAction) displayBeakerImage;
 
 
 @end
