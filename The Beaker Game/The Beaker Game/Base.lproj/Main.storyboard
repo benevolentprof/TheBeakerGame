@@ -45,19 +45,26 @@
                                 <rect key="frame" x="383" y="525" width="279" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="check.png" translatesAutoresizingMaskIntoConstraints="NO" id="5d9-dN-RO8">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="check.png" translatesAutoresizingMaskIntoConstraints="NO" id="dBL-Bz-LeZ">
                                 <rect key="frame" x="4" y="427" width="313" height="45"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beaker-0.png" translatesAutoresizingMaskIntoConstraints="NO" id="zH3-v5-GN5">
-                                <rect key="frame" x="4" y="64" width="250" height="355"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beaker-0.png" translatesAutoresizingMaskIntoConstraints="NO" id="V2N-sO-dQf">
+                                <rect key="frame" x="5" y="64" width="245" height="355"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHD-06-27B">
+                                <rect key="frame" x="5" y="427" width="312" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="flaskImage" destination="zH3-v5-GN5" id="xaX-Qn-4Os"/>
+                        <outlet property="beakerImageView" destination="V2N-sO-dQf" id="zH4-h5-iJQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

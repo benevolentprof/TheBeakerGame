@@ -10,12 +10,12 @@
 
 @interface tbgViewController : UIViewController
 {
-    IBOutlet UIImageView *flaskImage;
+    IBOutlet UIImageView *beakerImageView;
 }
 
 -(IBAction) increment;
 -(IBAction) decrement;
-//-(IBAction) displayBeakerImage;
+-(IBAction) displayBeakerImage;
 
 
 @end
