@@ -9,8 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface tbgViewController : UIViewController
+{
+    IBOutlet UIImageView *flaskImage;
+}
 
 -(IBAction) increment;
 -(IBAction) decrement;
+-(IBAction) displayBeakerImage;
+
 
 @end
