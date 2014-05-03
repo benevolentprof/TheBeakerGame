@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DABEEFDB19155E1A00EA9ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEEFDA19155E1A00EA9ADE /* Foundation.framework */; };
+		DABEEFDD19155E1A00EA9ADE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEEFDC19155E1A00EA9ADE /* CoreGraphics.framework */; };
+		DABEEFDF19155E1A00EA9ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEEFDE19155E1A00EA9ADE /* UIKit.framework */; };
+		DABEEFE519155E1A00EA9ADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DABEEFE319155E1A00EA9ADE /* InfoPlist.strings */; };
+		DABEEFE719155E1A00EA9ADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DABEEFE619155E1A00EA9ADE /* main.m */; };
+		DABEEFEB19155E1A00EA9ADE /* tbgAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DABEEFEA19155E1A00EA9ADE /* tbgAppDelegate.m */; };
+		DABEEFEE19155E1B00EA9ADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABEEFEC19155E1B00EA9ADE /* Main.storyboard */; };
+		DABEEFF119155E1B00EA9ADE /* tbgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABEEFF019155E1B00EA9ADE /* tbgViewController.m */; };
+		DABEEFF319155E1B00EA9ADE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABEEFF219155E1B00EA9ADE /* Images.xcassets */; };
+		DABEEFFA19155E1B00EA9ADE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEEFF919155E1B00EA9ADE /* XCTest.framework */; };
+		DABEEFFB19155E1B00EA9ADE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEEFDA19155E1A00EA9ADE /* Foundation.framework */; };
+		DABEEFFC19155E1B00EA9ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEEFDE19155E1A00EA9ADE /* UIKit.framework */; };
+		DABEF00419155E1B00EA9ADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DABEF00219155E1B00EA9ADE /* InfoPlist.strings */; };
+		DABEF00619155E1B00EA9ADE /* The_Beaker_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DABEF00519155E1B00EA9ADE /* The_Beaker_GameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DABEEFFD19155E1B00EA9ADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABEEFCF19155E1A00EA9ADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABEEFD619155E1A00EA9ADE;
+			remoteInfo = "The Beaker Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DABEEFD719155E1A00EA9ADE /* The Beaker Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Beaker Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABEEFDA19155E1A00EA9ADE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DABEEFDC19155E1A00EA9ADE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DABEEFDE19155E1A00EA9ADE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DABEEFE219155E1A00EA9ADE /* The Beaker Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Beaker Game-Info.plist"; sourceTree = "<group>"; };
+		DABEEFE419155E1A00EA9ADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DABEEFE619155E1A00EA9ADE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DABEEFE819155E1A00EA9ADE /* The Beaker Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The Beaker Game-Prefix.pch"; sourceTree = "<group>"; };
+		DABEEFE919155E1A00EA9ADE /* tbgAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tbgAppDelegate.h; sourceTree = "<group>"; };
+		DABEEFEA19155E1A00EA9ADE /* tbgAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tbgAppDelegate.m; sourceTree = "<group>"; };
+		DABEEFED19155E1B00EA9ADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DABEEFEF19155E1B00EA9ADE /* tbgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tbgViewController.h; sourceTree = "<group>"; };
+		DABEEFF019155E1B00EA9ADE /* tbgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tbgViewController.m; sourceTree = "<group>"; };
+		DABEEFF219155E1B00EA9ADE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DABEEFF819155E1B00EA9ADE /* The Beaker GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Beaker GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABEEFF919155E1B00EA9ADE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DABEF00119155E1B00EA9ADE /* The Beaker GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Beaker GameTests-Info.plist"; sourceTree = "<group>"; };
+		DABEF00319155E1B00EA9ADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DABEF00519155E1B00EA9ADE /* The_Beaker_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Beaker_GameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DABEEFD419155E1A00EA9ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABEEFDD19155E1A00EA9ADE /* CoreGraphics.framework in Frameworks */,
+				DABEEFDF19155E1A00EA9ADE /* UIKit.framework in Frameworks */,
+				DABEEFDB19155E1A00EA9ADE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABEEFF519155E1B00EA9ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABEEFFA19155E1B00EA9ADE /* XCTest.framework in Frameworks */,
+				DABEEFFC19155E1B00EA9ADE /* UIKit.framework in Frameworks */,
+				DABEEFFB19155E1B00EA9ADE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DABEEFCE19155E1A00EA9ADE = {
+			isa = PBXGroup;
+			children = (
+				DABEEFE019155E1A00EA9ADE /* The Beaker Game */,
+				DABEEFFF19155E1B00EA9ADE /* The Beaker GameTests */,
+				DABEEFD919155E1A00EA9ADE /* Frameworks */,
+				DABEEFD819155E1A00EA9ADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DABEEFD819155E1A00EA9ADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABEEFD719155E1A00EA9ADE /* The Beaker Game.app */,
+				DABEEFF819155E1B00EA9ADE /* The Beaker GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABEEFD919155E1A00EA9ADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DABEEFDA19155E1A00EA9ADE /* Foundation.framework */,
+				DABEEFDC19155E1A00EA9ADE /* CoreGraphics.framework */,
+				DABEEFDE19155E1A00EA9ADE /* UIKit.framework */,
+				DABEEFF919155E1B00EA9ADE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DABEEFE019155E1A00EA9ADE /* The Beaker Game */ = {
+			isa = PBXGroup;
+			children = (
+				DABEEFE919155E1A00EA9ADE /* tbgAppDelegate.h */,
+				DABEEFEA19155E1A00EA9ADE /* tbgAppDelegate.m */,
+				DABEEFEC19155E1B00EA9ADE /* Main.storyboard */,
+				DABEEFEF19155E1B00EA9ADE /* tbgViewController.h */,
+				DABEEFF019155E1B00EA9ADE /* tbgViewController.m */,
+				DABEEFF219155E1B00EA9ADE /* Images.xcassets */,
+				DABEEFE119155E1A00EA9ADE /* Supporting Files */,
+			);
+			path = "The Beaker Game";
+			sourceTree = "<group>";
+		};
+		DABEEFE119155E1A00EA9ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DABEEFE219155E1A00EA9ADE /* The Beaker Game-Info.plist */,
+				DABEEFE319155E1A00EA9ADE /* InfoPlist.strings */,
+				DABEEFE619155E1A00EA9ADE /* main.m */,
+				DABEEFE819155E1A00EA9ADE /* The Beaker Game-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DABEEFFF19155E1B00EA9ADE /* The Beaker GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				DABEF00519155E1B00EA9ADE /* The_Beaker_GameTests.m */,
+				DABEF00019155E1B00EA9ADE /* Supporting Files */,
+			);
+			path = "The Beaker GameTests";
+			sourceTree = "<group>";
+		};
+		DABEF00019155E1B00EA9ADE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DABEF00119155E1B00EA9ADE /* The Beaker GameTests-Info.plist */,
+				DABEF00219155E1B00EA9ADE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABEEFD619155E1A00EA9ADE /* The Beaker Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABEF00919155E1B00EA9ADE /* Build configuration list for PBXNativeTarget "The Beaker Game" */;
+			buildPhases = (
+				DABEEFD319155E1A00EA9ADE /* Sources */,
+				DABEEFD419155E1A00EA9ADE /* Frameworks */,
+				DABEEFD519155E1A00EA9ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Beaker Game";
+			productName = "The Beaker Game";
+			productReference = DABEEFD719155E1A00EA9ADE /* The Beaker Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DABEEFF719155E1B00EA9ADE /* The Beaker GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABEF00C19155E1B00EA9ADE /* Build configuration list for PBXNativeTarget "The Beaker GameTests" */;
+			buildPhases = (
+				DABEEFF419155E1B00EA9ADE /* Sources */,
+				DABEEFF519155E1B00EA9ADE /* Frameworks */,
+				DABEEFF619155E1B00EA9ADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABEEFFE19155E1B00EA9ADE /* PBXTargetDependency */,
+			);
+			name = "The Beaker GameTests";
+			productName = "The Beaker GameTests";
+			productReference = DABEEFF819155E1B00EA9ADE /* The Beaker GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABEEFCF19155E1A00EA9ADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tbg;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "HHKids2014 Beaker Game";
+				TargetAttributes = {
+					DABEEFF719155E1B00EA9ADE = {
+						TestTargetID = DABEEFD619155E1A00EA9ADE;
+					};
+				};
+			};
+			buildConfigurationList = DABEEFD219155E1A00EA9ADE /* Build configuration list for PBXProject "The Beaker Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABEEFCE19155E1A00EA9ADE;
+			productRefGroup = DABEEFD819155E1A00EA9ADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABEEFD619155E1A00EA9ADE /* The Beaker Game */,
+				DABEEFF719155E1B00EA9ADE /* The Beaker GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DABEEFD519155E1A00EA9ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABEEFF319155E1B00EA9ADE /* Images.xcassets in Resources */,
+				DABEEFE519155E1A00EA9ADE /* InfoPlist.strings in Resources */,
+				DABEEFEE19155E1B00EA9ADE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABEEFF619155E1B00EA9ADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABEF00419155E1B00EA9ADE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DABEEFD319155E1A00EA9ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABEEFEB19155E1A00EA9ADE /* tbgAppDelegate.m in Sources */,
+				DABEEFF119155E1B00EA9ADE /* tbgViewController.m in Sources */,
+				DABEEFE719155E1A00EA9ADE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABEEFF419155E1B00EA9ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABEF00619155E1B00EA9ADE /* The_Beaker_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DABEEFFE19155E1B00EA9ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABEEFD619155E1A00EA9ADE /* The Beaker Game */;
+			targetProxy = DABEEFFD19155E1B00EA9ADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DABEEFE319155E1A00EA9ADE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABEEFE419155E1A00EA9ADE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DABEEFEC19155E1B00EA9ADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABEEFED19155E1B00EA9ADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DABEF00219155E1B00EA9ADE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABEF00319155E1B00EA9ADE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DABEF00719155E1B00EA9ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DABEF00819155E1B00EA9ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABEF00A19155E1B00EA9ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Beaker Game/The Beaker Game-Prefix.pch";
+				INFOPLIST_FILE = "The Beaker Game/The Beaker Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DABEF00B19155E1B00EA9ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Beaker Game/The Beaker Game-Prefix.pch";
+				INFOPLIST_FILE = "The Beaker Game/The Beaker Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DABEF00D19155E1B00EA9ADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Beaker Game.app/The Beaker Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Beaker Game/The Beaker Game-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The Beaker GameTests/The Beaker GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DABEF00E19155E1B00EA9ADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The Beaker Game.app/The Beaker Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The Beaker Game/The Beaker Game-Prefix.pch";
+				INFOPLIST_FILE = "The Beaker GameTests/The Beaker GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DABEEFD219155E1A00EA9ADE /* Build configuration list for PBXProject "The Beaker Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABEF00719155E1B00EA9ADE /* Debug */,
+				DABEF00819155E1B00EA9ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABEF00919155E1B00EA9ADE /* Build configuration list for PBXNativeTarget "The Beaker Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABEF00A19155E1B00EA9ADE /* Debug */,
+				DABEF00B19155E1B00EA9ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DABEF00C19155E1B00EA9ADE /* Build configuration list for PBXNativeTarget "The Beaker GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABEF00D19155E1B00EA9ADE /* Debug */,
+				DABEF00E19155E1B00EA9ADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABEEFCF19155E1A00EA9ADE /* Project object */;
+}
