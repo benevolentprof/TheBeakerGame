@@ -31,6 +31,7 @@
     UIAlertView *hello = [[UIAlertView alloc ]
                           initWithTitle:@"Beaker Game" message:@"Up" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [hello show];
+    
 }
 
 -(IBAction) decrement
