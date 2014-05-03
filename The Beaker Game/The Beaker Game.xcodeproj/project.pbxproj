@@ -21,6 +21,7 @@
 		DABEEFFC19155E1B00EA9ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEEFDE19155E1A00EA9ADE /* UIKit.framework */; };
 		DABEF00419155E1B00EA9ADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DABEF00219155E1B00EA9ADE /* InfoPlist.strings */; };
 		DABEF00619155E1B00EA9ADE /* The_Beaker_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DABEF00519155E1B00EA9ADE /* The_Beaker_GameTests.m */; };
+		DABEF0101915623A00EA9ADE /* red_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DABEF00F1915623A00EA9ADE /* red_circle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DABEF00119155E1B00EA9ADE /* The Beaker GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Beaker GameTests-Info.plist"; sourceTree = "<group>"; };
 		DABEF00319155E1B00EA9ADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DABEF00519155E1B00EA9ADE /* The_Beaker_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Beaker_GameTests.m; sourceTree = "<group>"; };
+		DABEF00F1915623A00EA9ADE /* red_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_circle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		DABEEFE119155E1A00EA9ADE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DABEF00F1915623A00EA9ADE /* red_circle.png */,
 				DABEEFE219155E1A00EA9ADE /* The Beaker Game-Info.plist */,
 				DABEEFE319155E1A00EA9ADE /* InfoPlist.strings */,
 				DABEEFE619155E1A00EA9ADE /* main.m */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DABEEFF319155E1B00EA9ADE /* Images.xcassets in Resources */,
+				DABEF0101915623A00EA9ADE /* red_circle.png in Resources */,
 				DABEEFE519155E1A00EA9ADE /* InfoPlist.strings in Resources */,
 				DABEEFEE19155E1B00EA9ADE /* Main.storyboard in Resources */,
 			);

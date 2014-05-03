@@ -10,4 +10,7 @@
 
 @interface tbgViewController : UIViewController
 
+-(IBAction) increment;
+-(IBAction) decrement;
+
 @end

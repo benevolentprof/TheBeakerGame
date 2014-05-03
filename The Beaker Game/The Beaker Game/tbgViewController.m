@@ -26,4 +26,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction) increment
+{
+    UIAlertView *hello = [[UIAlertView alloc ]
+                          initWithTitle:@"Beaker Game" message:@"Up" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [hello show];
+}
+
+-(IBAction) decrement
+{
+    UIAlertView *hello = [[UIAlertView alloc ]
+                          initWithTitle:@"Beaker Game" message:@"Down" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [hello show];
+}
+
+
 @end
