@@ -133,7 +133,18 @@ NSInteger beakerLevel = 0;
 -(IBAction) checkBeakerLevel
 {
     
-    [self performSegueWithIdentifier:@"twoThirdsFeedbackSegue" sender:self];
+    if (beakerLevel == 0){
+        [self performSegueWithIdentifier:@"calmFeedbackSegue" sender:self];
+    } else if (beakerLevel > 5 && beakerLevel <= 35) {
+        [self performSegueWithIdentifier:@"oneThirdFeedbackSegue" sender:self];
+    } else if (beakerLevel > 35 && beakerLevel <= 65) {
+        [self performSegueWithIdentifier:@"twoThirdsFeedbackSegue" sender:self];
+    } else if (beakerLevel > 65 && beakerLevel <= 85) {
+        [self performSegueWithIdentifier:@"highFeedbackSegue" sender:self];
+    } else if (beakerLevel > 85 && beakerLevel <= 100) {
+        [self performSegueWithIdentifier:@"dangerFeedbackSegue" sender:self];
+    }
+    
     
 }
 
