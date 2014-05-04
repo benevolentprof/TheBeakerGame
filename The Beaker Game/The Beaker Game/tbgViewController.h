@@ -16,6 +16,6 @@
 -(IBAction) increment;
 -(IBAction) decrement;
 -(IBAction) displayBeakerImage;
-
+-(IBAction) checkBeakerLevel;
 
 @end

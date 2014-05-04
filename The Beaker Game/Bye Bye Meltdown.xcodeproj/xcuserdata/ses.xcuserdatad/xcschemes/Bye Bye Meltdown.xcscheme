@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DABEEFD619155E1A00EA9ADE"
                BuildableName = "The Beaker Game.app"
-               BlueprintName = "The Beaker Game"
-               ReferencedContainer = "container:The Beaker Game.xcodeproj">
+               BlueprintName = "Bye Bye Meltdown"
+               ReferencedContainer = "container:Bye Bye Meltdown.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DABEEFF719155E1B00EA9ADE"
                BuildableName = "The Beaker GameTests.xctest"
-               BlueprintName = "The Beaker GameTests"
-               ReferencedContainer = "container:The Beaker Game.xcodeproj">
+               BlueprintName = "Bye Bye MeltdownTests"
+               ReferencedContainer = "container:Bye Bye Meltdown.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DABEEFD619155E1A00EA9ADE"
             BuildableName = "The Beaker Game.app"
-            BlueprintName = "The Beaker Game"
-            ReferencedContainer = "container:The Beaker Game.xcodeproj">
+            BlueprintName = "Bye Bye Meltdown"
+            ReferencedContainer = "container:Bye Bye Meltdown.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DABEEFD619155E1A00EA9ADE"
             BuildableName = "The Beaker Game.app"
-            BlueprintName = "The Beaker Game"
-            ReferencedContainer = "container:The Beaker Game.xcodeproj">
+            BlueprintName = "Bye Bye Meltdown"
+            ReferencedContainer = "container:Bye Bye Meltdown.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DABEEFD619155E1A00EA9ADE"
             BuildableName = "The Beaker Game.app"
-            BlueprintName = "The Beaker Game"
-            ReferencedContainer = "container:The Beaker Game.xcodeproj">
+            BlueprintName = "Bye Bye Meltdown"
+            ReferencedContainer = "container:Bye Bye Meltdown.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -130,6 +130,12 @@ NSInteger beakerLevel = 0;
      */
 }
 
+-(IBAction) checkBeakerLevel
+{
+    
+    [self performSegueWithIdentifier:@"twoThirdsFeedbackSegue" sender:self];
+    
+}
 
 
 @end
