@@ -8,7 +8,7 @@
 
 #import "tbgViewController.h"
 
-NSInteger beakerLevel = 0;
+NSInteger beakerLevel;
 
 @interface tbgViewController ()
 
@@ -20,6 +20,8 @@ NSInteger beakerLevel = 0;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self displayBeakerImage];
 }
 
 - (void)didReceiveMemoryWarning

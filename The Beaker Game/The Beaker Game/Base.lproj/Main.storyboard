@@ -44,7 +44,7 @@
                                 <rect key="frame" x="383" y="525" width="279" height="40"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="beaker-0.png" translatesAutoresizingMaskIntoConstraints="NO" id="V2N-sO-dQf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V2N-sO-dQf">
                                 <rect key="frame" x="5" y="64" width="245" height="355"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -522,7 +522,6 @@
         <image name="Yes.png" width="120" height="52"/>
         <image name="a little.png" width="285" height="267"/>
         <image name="beaker-0-grey.png" width="484" height="668"/>
-        <image name="beaker-0.png" width="484" height="668"/>
         <image name="calm.png" width="285" height="267"/>
         <image name="check.png" width="313" height="45"/>
         <image name="danger.png" width="285" height="267"/>
